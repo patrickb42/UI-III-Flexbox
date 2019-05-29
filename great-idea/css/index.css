@@ -176,11 +176,40 @@ footer {
 
 
 
+
+
 .services-header-img {
 	width: 100%;
 	margin: 1rem 0;
 }
 
-#index_header {
-	
+h2 {
+	font-size: 1.6rem;
 }
+
+#services_middle_section {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 30px 0 0;
+	padding: 30px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card {
+	width: 360px;
+	border: 1px solid black;
+	background: #eee;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+.learn_more {
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 5px 20px;
+	margin: 15px 0 0;
+	background: #fff;
+}
+
+footer {}
