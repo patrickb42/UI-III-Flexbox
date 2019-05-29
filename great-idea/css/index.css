@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 
 * {
 	box-sizing: border-box;
-	border: 1px solid red !important;
+	/* border: 1px solid red !important; */
 }
 body {
 	padding: 10px 5% 30px;
@@ -118,4 +118,38 @@ header {
 }
 #header_image_box img {
 	width: 100%;
+}
+
+#section1 {
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 0;
+}
+#section1 div {
+	width: 49%;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+#section2 {
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+#section2 div {
+	width: 32%;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	padding: 25px 0;
+}
+#copyright {
+	align-self: center;
+	margin: 50px 0 10px;
 }
